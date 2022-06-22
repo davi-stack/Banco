@@ -5,6 +5,8 @@ public abstract class Cartao implements FormaPagamento{
       protected int bandeira;
 	  protected int emissor;
 	  protected Cliente cliente;
+	  protected Conta contaDoCartao;
+	  
 	  public Cliente getCliente() {
 		return cliente;
 	}

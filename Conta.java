@@ -4,7 +4,7 @@ public class Conta implements Iconta {
 	public String toString() {
 		return nomeCliente();
 	}
-
+    Cartao cartaoConta;
 int numero = 0 ;
  double taxa = 0;
  double saudo = 0;

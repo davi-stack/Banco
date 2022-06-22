@@ -1,7 +1,5 @@
 
 public interface FormaPagamento {
-	
-   public static void pagar() {
-	   
-   }
+   
+   public void pagar(double valor);
 }
